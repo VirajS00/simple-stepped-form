@@ -1,0 +1,76 @@
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer {
+    width: 95vw;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formControls {
+    display: flex;
+    align-self: flex-start;
+    position: relative;
+    left: 2.5vw;
+}
+
+.buttonFn {
+    background-color: #ccc;
+    color: #fff;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+    width: 40px;
+}
+
+.active {
+    background-color: #02801b;
+}
+
+input {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+input[type='button']:not(.buttonFn) {
+    font-family: 'Montserrat',
+        sans-serif;
+    padding: 5px 25px;
+    background-color: #02801b;
+    margin-top: 15px;
+    color: #fff;
+    border: 0;
+    font-size: .8em;
+    border-radius: 5px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+input[type='text'] {
+    padding: 5px 7px;
+    width: 350px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type='text']:focus {
+    border: 1px solid #333;
+}
